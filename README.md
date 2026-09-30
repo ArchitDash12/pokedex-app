@@ -2,9 +2,11 @@
 
 A Gen 1 Pokédex built in React: browse the original 151 Pokémon, inspect stats and sprites, search by name or number, and tap a move to read its flavor text — all backed by [PokéAPI](https://pokeapi.co/).
 
+🔗 **Live demo:** [https://archit-pokedex.vercel.app/](https://archit-pokedex.vercel.app/)
+
 ---
 
-## What it does
+## ⚡ What it does
 
 - **National Dex 001–151** in a filterable side nav
 - **Detail card** with types, official artwork, extra sprites, and base stats
@@ -14,7 +16,7 @@ A Gen 1 Pokédex built in React: browse the original 151 Pokémon, inspect stats
 
 ---
 
-## Tech stack
+## 🛠️ Tech stack
 
 | Layer | Choice |
 | --- | --- |
@@ -25,7 +27,7 @@ A Gen 1 Pokédex built in React: browse the original 151 Pokémon, inspect stats
 | Data | [PokéAPI](https://pokeapi.co/docs/v2) (REST, no key) |
 | Lint | Oxlint |
 
-**PokéAPI endpoints used**
+**🌐 API surface**
 
 - `GET https://pokeapi.co/api/v2/pokemon/{id}` — species payload (types, stats, sprites, moves)
 - Move resource URLs from that payload (`/api/v2/move/{id}`) — flavor text for the modal
@@ -34,7 +36,7 @@ Static Gen 1 portraits are served from `public/pokemon/` as `/pokemon/{dex}.png`
 
 ---
 
-## Concepts I used and learned
+## 📚 Concepts I used and learned
 
 This project is a practical pass through core React and frontend data-flow, not a tutorial dump.
 
@@ -76,7 +78,7 @@ ES modules, HMR, and static files from `public/` at the site root.
 
 ---
 
-## Project layout
+## 🗂️ Project layout
 
 ```
 pokedex-app/
@@ -99,7 +101,7 @@ pokedex-app/
 
 ---
 
-## Run locally
+## ▶️ Run locally
 
 ```bash
 cd pokedex-app
@@ -118,7 +120,7 @@ Open the URL Vite prints (usually `http://localhost:5173`).
 
 ---
 
-## Credits
+## 📌 Credits
 
 - Data: [PokéAPI](https://pokeapi.co/)
 - Pokémon is a trademark of Nintendo / Game Freak / The Pokémon Company. This is a fan learning project, not an official product.
